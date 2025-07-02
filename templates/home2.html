@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html style="background-color:#687480">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="master.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+div.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.scroll {
+    height: 600px;
+    float: right;
+    width: 25%;
+    padding: 0px;
+    overflow-y: scroll;
+
+}
+
+</style>
+</head>
+<body>
+
+<h2 style="background-color:#687480;">Home</h2>
+<p style="background-color:#687480;">You are signed in as: {{signedInUser}}  <button onclick="document.location='logout'" type="button" style = "float:right;">Logout</button></p>
+
+<div class="row">
+  <div class="scroll" style="background-color:#aaaaaa;">
+    <div style="position:sticky;background-color:#a1b2c3;top:0;">
+        <h2 style="margin-block-start: 0;margin-block-end: 0;margin-bottom: 15px;">Leads <button onclick="document.location=''" type="button" style="font-size:12px; float:right;">expand</button></h2>
+    </div>
+    <p style="margin-left:15px;margin-right:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+  </div>
+  <div class="scroll" style="background-color:#aaaaaa;">
+    <div style="position:sticky;background-color:#a1b2c3;top:0;">
+        <h2 style="margin-block-start: 0;margin-block-end: 0;margin-bottom: 15px;">Deals <button onclick="document.location=''" type="button" style="font-size:12px; float:right;">expand</button></h2>
+    </div>
+    <p style="margin-left:15px;margin-right:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+  </div>
+  <div class="scroll" style="background-color:#aaaaaa;">
+    <div style="position:sticky;background-color:#a1b2c3;top:0;">
+        <h2 style="margin-block-start: 0;margin-block-end: 0;margin-bottom: 15px;">Interactions <button onclick="document.location=''" type="button" style="font-size:12px; float:right;">expand</button></h2>
+    </div>
+    <p style="margin-left:15px;margin-right:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+  </div>
+  <div class="scroll" style="background-color:#aaaaaa;">
+    <div style="position:sticky;background-color:#a1b2c3;top:0;">
+        <h2 style="margin-block-start: 0;margin-block-end: 0;margin-bottom: 15px;">Your items <button onclick="document.location=''" type="button" style="font-size:12px; float:right;">expand</button></h2>
+    </div>
+    <p style="margin-left:15px;margin-right:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.</p>
+  </div>
+</div>
+
+</body>
+</html>

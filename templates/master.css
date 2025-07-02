@@ -1,0 +1,77 @@
+html {
+  background-color: #aaaaaa;
+}
+body {
+  background-color: #aaaaaa;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+.p {
+  font-family: Arial,sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+aside {
+  width: 75%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+.div {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+input {
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+div.scroll {
+    max-height: 10px;
+    float: left;
+    width: 30px;
+    padding: 15px;
+    overflow-y: scroll;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.columnm {
+    float: left;
+    width: 10%;
+    padding: 15px;
+}
